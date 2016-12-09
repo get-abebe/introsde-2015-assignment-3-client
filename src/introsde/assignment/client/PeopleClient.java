@@ -21,15 +21,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 public class PeopleClient{
     public static void main(String[] args) throws Exception {
-       /* URL url = new URL("http://192.168.56.1:6902/soap/people?wsdl");
-        * //https://fathomless-lowlands-3430.herokuapp.com/ws/people?wsdl
-        //URL url = new URL("https://fathomless-lowlands-3430.herokuapp.com/ws/people?wsdl");
-        //1st argument service URI, refer to wsdl assignment above
-        //2nd argument is service name, refer to wsdl assignment above
-        QName qname = new QName("http://soap.assignment.introsde/", "PeopleService");
-        Service service = Service.create(url, qname);
       
-        People people = service.getPort(People.class);*/
     	
     	 PeopleService service = new PeopleService();
          People people = service.getPeopleImplPort();
