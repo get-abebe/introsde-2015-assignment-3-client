@@ -1,4 +1,4 @@
-# introsde-2015-assignment-3-client
+# introsde-2016-assignment-3-client
 Assignment 03: SOAP Web Services
 
 Name: Getachew Demissie Abebe
